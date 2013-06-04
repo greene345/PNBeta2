@@ -1,0 +1,339 @@
+html {
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+body {
+width: 100%;
+height: 100%;
+margin: 0;
+font-family:Lucida Sans Unicode,Verdana;
+font-size: 11pt;
+padding: 0;
+}
+
+textarea {
+font-size: 10pt;
+font-family:Lucida Sans Unicode,Verdana;
+}
+
+#header {
+width: 100%;
+height: 100px;
+background: url('images/logo2.png') center no-repeat;
+margin: 0;
+padding: 0;
+}
+
+#divider {
+width: 100%;
+height: 20px;
+background: url('images/divider.png') repeat-x;
+margin: 0;
+padding: 0;
+}
+
+#container {
+margin: 0 auto;
+padding: 0;
+width: 1295px;
+min-height: 450px;
+}
+
+#leftcolumn {
+min-height: 450px;
+width: 970px;
+float: left;
+margin: 10px 0 0 auto;
+border-top: solid 0px #1c2222;
+border-left: solid 0px #1c2222;
+border-right: solid 0px #1c2222;
+padding: 5px;
+}
+
+#rightcolumn {
+min-height: 450px;
+width: 300px;
+float: right;
+margin: 10px auto 0 0;
+border-top: solid 0px #1c2222;
+border-left: solid 0px #1c2222;
+border-right: solid 0px #1c2222;
+padding: 5px;
+}
+
+#title {
+height: 25px;
+width: 100%;
+margin: 0 0 5px 0;
+background: #1c2222;
+color: #FFF;
+text-align: center;
+padding: 1px 0;
+}
+
+#footer {
+height: 30px;
+width: 100%;
+margin: 0;
+clear: both;
+border-top: solid 5px #000;
+background: url('images/copyright.png') no-repeat 50% 55%;
+}
+
+#advertisement {
+height: 90px;
+width: 738px;
+clear:both;
+margin: 0px auto 10px auto;
+padding-top: 10px;
+}
+
+#red {
+color: #A00000;
+}
+
+#green {
+color: #008000;
+}
+
+h2 {
+text-decoration: underline;
+}
+
+table#black {
+padding: 5px;
+border: 1px solid #000;
+border-collapse: collapse;
+width: 100%;
+margin: 0 auto;
+}
+
+table.black{
+padding: 5px;
+border: 1px solid #000;
+border-collapse: collapse;
+width: 100%;
+margin: 0 auto;
+}
+
+td#black {
+padding: 5px;
+border: 1px solid #000;
+border-collapse: collapse;
+vertical-align: middle;
+}
+
+td.black{
+padding: 5px;
+border: 1px solid #000;
+border-collapse: collapse;
+vertical-align: middle;
+}
+
+th#thickblack {
+padding: 2px;
+border: 1px solid #000;
+border-collapse: collapse;
+vertical-align: middle;
+color: #FFF;
+background-color: #CC3333;
+}
+
+th.thickblack{
+padding: 2px;
+border: 1px solid #000;
+border-collapse: collapse;
+vertical-align: middle;
+color: #FFF;
+background-color: #CC3333;
+}
+
+tr#black {
+padding: 5px;
+border: 1px solid #000;
+border-collapse: collapse;
+}
+
+tr.black{
+padding: 5px;
+border: 1px solid #000;
+border-collapse: collapse;
+}
+
+textarea {
+width: 100%;
+}
+
+input {
+border: 1px solid #707070;
+border-collapse: collapse;
+}
+
+#slideshow {
+margin: 10px auto;
+}
+
+img {
+margin: 4px;
+vertical-align: middle;
+}
+
+img.middle {
+vertical-align: text-bottom;
+}
+
+table.center {
+margin: 0 auto;
+}
+
+table#narrow {
+margin: 10px auto;
+width: 50%;
+}
+
+.float {
+float:left;
+margin: 3px;
+}
+
+td {
+vertical-align: middle;
+}
+
+.top {
+vertical-align: top;
+}
+
+img.center {
+margin: 0 auto;
+display: block;
+}
+
+.center {
+text-align: center;
+}
+
+.right {
+text-align: right;
+}
+
+.left {
+text-align: left;
+}
+
+ul{ 
+margin: 0;
+}
+
+li {
+list-style-type: square;
+margin: 0;
+}
+
+hr {
+border:dashed #000000; 
+border-width:1px 0 0 0; 
+height:0;
+line-height:0px;
+font-size:0;
+margin:10px 0;
+padding:0;
+}
+
+a:link {
+text-decoration: none;
+color: #900000;
+}
+a:visited {
+text-decoration: none;
+color: #900000;
+}
+a:active {
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+color: #900000;
+}
+
+/* Menu */
+/*!!!!!!!!!!! MyCSSMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/
+.qmmc .qmdivider{display:block;font-size:1px;border-width:0px;border-style:solid;position:relative;z-index:1;}.qmmc .qmdividery{float:left;width:0px;}.qmmc .qmtitle{display:block;cursor:default;white-space:nowrap;position:relative;z-index:1;}.qmclear {font-size:1px;height:0px;width:0px;clear:left;line-height:0px;display:block;float:none !important;}.qmmc {position:relative;zoom:1;z-index:10;}.qmmc a, .qmmc li {float:left;display:block;white-space:nowrap;position:relative;z-index:1;}.qmmc div a, .qmmc ul a, .qmmc ul li {float:none;}.qmsh div a {float:left;}.qmmc div{visibility:hidden;position:absolute;}.qmmc li {z-index:auto;}.qmmc ul {left:-10000px;position:absolute;z-index:10;}.qmmc, .qmmc ul {list-style:none;padding:0px;margin:0px;}.qmmc li a {float:none}.qmmc li:hover>ul{left:auto;}#qm0 li {float:none;}#qm0 li:hover>ul{top:0px;left:100%;}
+
+
+/*!!!!!!!!!!! MyCSSMenu Styles [Please Modify!] !!!!!!!!!!!*/
+
+
+	/* MyCSSMenu 0 */
+
+	/*"""""""" (MAIN) Container""""""""*/	
+	#qm0	
+	{	
+		width:150px;
+		background-color:transparent;
+		margin: 0 0 0 10px;
+	}
+
+
+	/*"""""""" (MAIN) Items""""""""*/	
+	#qm0 a	
+	{	
+		padding:5px 5px 5px 8px;
+		color: #000;
+		text-decoration:none;
+	}
+
+
+	/*"""""""" (MAIN) Hover State""""""""*/	
+	#qm0 a:hover	
+	{	
+		text-decoration:underline;
+	}
+
+
+	/*"""""""" (MAIN) Active State""""""""*/	
+	body #qm0 .qmactive, body #qm0 .qmactive:hover	
+	{	
+		text-decoration:none;
+		font-weight:bold;
+		color: #000;
+	}
+
+
+	/*"""""""" (SUB) Container""""""""*/	
+	#qm0 div, #qm0 ul	
+	{	
+		padding:5px 0px;
+		background-color:#FFFFFF;
+	}
+
+
+	/*"""""""" (SUB) Items""""""""*/	
+	#qm0 div a, #qm0 ul a	
+	{	
+		padding:2px 0px 2px 15px;
+		margin:0px 5px;
+		background-image:none;
+		color: #900000;
+	}
+
+
+	/*"""""""" (SUB) Hover State""""""""*/	
+	#qm0 div a:hover, #qm0 ul a:hover	
+	{	
+		text-decoration:underline;
+	}
+
+
+	/*"""""""" (SUB) Active State""""""""*/	
+	body #qm0 div .qmactive, body #qm0 div .qmactive:hover	
+	{	
+		text-decoration:none;
+		font-weight:bold;
+	}
+
+	.qmfv{visibility:visible !important;}.qmfh{visibility:hidden !important;}
+	
